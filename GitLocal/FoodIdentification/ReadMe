@@ -1,4 +1,4 @@
-Food Extraction in yelp reviews and food names(more than 1000) are extracted from various sites.
+Food Extraction in yelp reviews and food names(more than 100,000) are extracted from various sites.
 Algorithm : Aho-Corasick Algorithm
 LingPipe's scalable dictionary-based chunker is a straightforward token-based implementation of the this approach is that it remains linear time in 
 the input string(review size), not the number of matches or size of the dictionary (food items size).
