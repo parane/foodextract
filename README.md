@@ -1,0 +1,14 @@
+foodextract 
+===========
+Food Extraction from chunk of reviews
+=====================================
+Food Extraction in yelp reviews and food names(more than 100,000) are extracted from various sites.
+Algorithm : Aho-Corasick Algorithm
+LingPipe's scalable dictionary-based chunker is a straightforward token-based implementation of the this approach is that it remains linear time in 
+the input string(review size), not the number of matches or size of the dictionary (food items size).
+
+=====================================
+Class Description:
+DictionaryChunker (Main) : class ,add dictionary terms(food names) and evaluate reviews
+ReadFoodItems: read all food items from mysql db
+ReadReviews: Read reviews of particular resturant from mysql DB
